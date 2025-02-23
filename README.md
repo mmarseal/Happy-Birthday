@@ -4,7 +4,7 @@ https://mmarseal.github.io/Happy-Birthday/
 
 Interactive website to celebrate birthdays with confetti animations, gift opening and photo gallery!
 
-![first page](https://github.com/mmarseal/Happy-Birthday/blob/main/assets/img/page.pn?raw=true)
+![first page](https://github.com/mmarseal/Happy-Birthday/blob/main/assets/img/page.png?raw=true)
 
 ## ✨ Key Features
 - 🎊 Interactive confetti animation
