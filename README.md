@@ -13,6 +13,11 @@ Interactive website to celebrate birthdays with confetti animations, gift openin
 - 🔔 Birthday notifications
 - 🎂 Typography effects
 
+
+**Note** 
+ - **Don't open on a smartphone!** The display may be messy.
+ - This website is specially designed for desktop/tablet.
+
 ## 🚀 Technology
 **Frontend**
  - HTML5 & CSS3
@@ -21,6 +26,6 @@ Interactive website to celebrate birthdays with confetti animations, gift openin
  - [Feather Icons](https://feathericons.com) - Decorative icons
 
 ## 🛠️ Installation
-1. Clone repository:
+Clone repository:
  ```bash
- git clone https://github.com/mmarseal/Happy-Birthday.git 
+ git clone https://github.com/mmarseal/Happy-Birthday.git
