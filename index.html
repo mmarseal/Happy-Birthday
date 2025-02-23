@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/x-icon" href="assets/img/pict4.jpg">
+  </head>
+  <body>
+    <div class="notification" id="reminder">
+      <div class="notification-content">
+        <div class="notification-title">Reminder</div>
+        <div class="notification-message">Today is your 25th birthday! ✨</div>
+      </div>
+
+      <div class="notification-button">
+        <button class="music-btn" onclick="toggleMusic()">Okay</button>
+      </div>
+    </div>
+
+    <div class="container" id="birthday-content">
+      <div class="message"></div>
+      <div class="gif">
+        <img src="assets/gif/confetti.gif" alt="confetti" />
+        <div>
+          <div class="cake" onclick="blowCandle()">🎂</div>
+          <p class="instructions">Click the cake! ✨</p>
+        </div>
+
+        <a href="gift/gift.html"><img src="assets/gif/gift.gif" alt="" />
+      </div>
+    </div>
+
+    <audio id="bg-music" loop>
+      <source src="assets/sound/hbd.mp3" type="audio/mp3" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <audio id="notificationSound" autoplay>
+      <source src="assets/sound/Notification.mp3" type="audio/mp3" />
+    </audio>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

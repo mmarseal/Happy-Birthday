@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gift for You!</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="gift.css" />
+    <link rel="icon" type="image/x-icon" href="../assets/img/pict4.jpg" />
+  </head>
+  <body>
+    <main>
+      <section class="your-gift" id="yourGift">
+        <section class="gift" id="gift">
+          <div class="scrollingText">
+            <marquee direction="left" scrollamount="20" behavior="scroll"
+              >OPEN THE GIFT FROM THE LEFT FIRST, DON'T BE SUSPICIOUS!
+            </marquee>
+          </div>
+
+          <div class="boxes">
+            <div class="box">
+              <div class="image">
+                <img src="../assets/img/closeBox.png" class="box-image" />
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="image">
+                <img src="../assets/img/closeBox.png" class="box-image" />
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="image">
+                <img src="../assets/img/closeBox.png" class="box-image" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- click box -->
+        <section class="clickBox">
+          <div class="modal" id="item-detail-modal1">
+            <div class="modal-container" id="card1">
+              <a href="#gift" class="close-icon"><i data-feather="x"></i></a>
+              <div class="modal-content">
+                <video controls>
+                  <source
+                    src="../assets/videos/53d3d90695138cc7ff07d02c887cd457.mp4"
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal" id="item-detail-modal2">
+            <div class="modal-container" id="card2">
+              <a href="#gift" class="close-icon"><i data-feather="x"></i></a>
+              <div class="modal-content">
+                <video controls>
+                  <source
+                    src="../assets/videos/53d3d90695138cc7ff07d02c887cd457.mp4"
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal" id="item-detail-modal3">
+            <div class="modal-container" id="box3">
+              <a href="#gift" class="close-icon"
+                ><i data-feather="x" id="closeGift"></i
+              ></a>
+              <div class="modal-content" id="gift-content">
+                <p>
+                  Congratulations, you get a Samsung Galaxy S24 Ultra phone anda
+                  bunch of money! :D
+                </p>
+                <div class="img-container">
+                  <img src="../assets/img/Hp.png" />
+                  <img src="../assets/gif/money.gif" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section class="pictures-content" id="picturesContent">
+        <!-- ini isi foto-foto nya ya, ketika box 3 diklik -->
+
+        <div class="scrollingImg">
+          <div class="scroll">
+            <img src="../assets/img/pict1.jpg" />
+            <img src="../assets/img/pict2.jpg" />
+            <img src="../assets/img/pict3.jpg" />
+            <img src="../assets/img/pict4.jpg" />
+            <img src="../assets/img/pict5.jpg" />
+            <img src="../assets/img/pict6.jpg" />
+            <img src="../assets/img/pict7.jpg" />
+            <img src="../assets/img/pict8.jpg" />
+            <img src="../assets/img/pict9.jpg" />
+            <img src="../assets/img/pict10.jpg" />
+            <img src="../assets/img/pict11.jpg" />
+          </div>
+
+          <!-- jika tidak bisa menggunakan css slide, gunakan marque img -->
+          <!-- <marquee
+            direction="left"
+            scrollamount="4"
+            behavior="scroll"
+            loop="infinite"
+            id="marquee"
+          >
+            <img src="../assets/img/pict1.jpeg" />
+            <img src="../assets/img/pict2.jpeg" />
+            <img src="../assets/img/pict3.jpeg" />
+            <img src="../assets/img/pict4.jpeg" />
+            <img src="../assets/img/pict5.jpeg" />
+            <img src="../assets/img/pict6.jpeg" />
+            <img src="../assets/img/pict7.jpeg" />
+            <img src="../assets/img/pict8.jpeg" />
+            <img src="../assets/img/pict9.jpeg" />
+            <img src="../assets/img/pict10.jpeg" />
+            <img src="../assets/img/pict11.jpeg" />
+            <img src="../assets/img/pict12.jpeg" />
+            <img src="../assets/img/pict13.jpeg" />
+            <img src="../assets/img/pict14.jpeg" />
+            <img src="../assets/img/pict15.jpeg" />
+          </marquee> -->
+        </div>
+
+        <div class="music">
+          <p>♪ Proud of You - Fiona Fung</p>
+        </div>
+      </section>
+
+      <audio id="proudOfYou" loop>
+        <source src="../assets/sound/proud-of-you.mp3" type="audio/mp3" />
+        Your browser does not support the audio element.
+      </audio>
+    </main>
+
+    <script>
+      feather.replace();
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
